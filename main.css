@@ -1,0 +1,67 @@
+#container{
+    margin: 0 auto;
+    height: 1000px;
+    display: block;
+}
+.color {
+    display:inline-block;
+    width:16.4%;
+    height: 1000px;
+    position: relative;
+    margin:none;
+}
+.title{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    position: inherit;
+    margin: auto;
+    height: 40px;
+}
+.red{
+    background-color: rgb(255, 55, 55);
+    color: rgb(155, 155, 155);
+}
+.red .title {
+    width: 75px;
+    border: 5px solid rgb(155, 155, 155);
+}
+.orange{
+    background-color: rgb(255, 155, 55);
+    color: rgb(155, 155,155);
+}
+.orange .title{
+    width: 150px;
+    border: 5px solid rgb(155, 155, 155);
+}
+.yellow{
+    background-color: rgb(255, 255, 55);
+    color: rgb(155, 155, 155);
+}
+.yellow .title{
+    width: 150px;
+    border:5px solid rgb(155, 155, 155);
+}
+.green{
+    background-color: rgb(55, 255, 55);
+    color: rgb(155, 155, 155);
+}
+.green .title{
+    width: 125px;
+    border: 5px solid rgb(155, 155, 155);
+}
+.blue{
+    background-color: rgb(55, 55, 255);
+    color: rgb(155, 155, 155);
+}
+.blue .title{
+    width:100px;
+    border: 5px solid rgb(155, 155, 155);
+}
+.purple{
+    background-color: rgb(204, 0, 255);
+    color: rgb(155, 155, 155)
+}
+.purple .title{
+    width: 130px;
+    border: 5px solid rgb(155, 155, 155);
+}
